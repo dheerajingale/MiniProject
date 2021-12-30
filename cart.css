@@ -1,0 +1,42 @@
+.cart-main {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.cart-title {
+    padding: 16px 0 16px 24px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart-img {
+    align-items: center;
+}
+
+.cart-subtitle {
+    font-weight: bolder;
+}
+
+.btn-start-shopping {
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    background:rgb(43, 168, 43) ;
+    color: white;
+    transition: all 1s;
+}
+
+.btn-start-shopping:hover {
+    background: green;
+}

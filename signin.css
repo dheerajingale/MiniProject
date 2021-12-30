@@ -1,0 +1,77 @@
+.div1 {
+    background: whitesmoke;
+    height: 84vh;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: white;
+    border-radius: 8px;
+    
+    height: 500px;
+    width: 800px;
+
+}
+
+.box1 {
+    flex: 1;
+    height:500px ;
+    width: 300px;
+    
+}
+
+.box2 {
+    background: white;
+    padding: 50px;
+    flex: 1;
+}
+
+.signin-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.inputbox {
+    height: 40px;
+    width: 90%;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.img-sign {
+    height:500px ;
+    width: 100%;
+    object-fit: fill;
+}
+
+.btn-signin {
+    height: 40px;
+    width: 90%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background:lightgreen ;
+    color: white;
+    transition: all 1s;
+}
+
+.btn-signin:hover {
+    background: green;
+}
+
+@media screen and (min-width: 576px) {
+    .box {
+        display: flex;
+        }
+  }
+  
